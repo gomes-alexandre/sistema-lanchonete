@@ -1,0 +1,74 @@
+{
+    "cardapio": [
+        {
+            "id_produto": "0020",
+            "nome": "Arroz Parbolizado",
+            "preco": 25.9,
+            "disponivel": true,
+            "estoque": 45
+        },
+        {
+            "id_produto": "0021",
+            "nome": "Feijão Preto Coma Bem",
+            "preco": 6.9,
+            "disponivel": true,
+            "estoque": 45
+        },
+        {
+            "id_produto": "0022",
+            "nome": "Farinha de Trigo Globo",
+            "preco": 5.9,
+            "disponivel": true,
+            "estoque": 46
+        }
+    ],
+    "clientes": [
+        {
+            "id_cliente": "0001",
+            "nome": "Alexandre",
+            "telefone": "991955420",
+            "endereco": "Rua fulano de tal"
+        }
+    ],
+    "pedidos": [
+        {
+            "id_pedido": "PED0001",
+            "id_cliente": "0001",
+            "itens": [
+                {
+                    "produto_id": "0020",
+                    "quantidade": 5,
+                    "subtotal": 129.5
+                },
+                {
+                    "produto_id": "0021",
+                    "quantidade": 5,
+                    "subtotal": 34.5
+                },
+                {
+                    "produto_id": "0022",
+                    "quantidade": 4,
+                    "subtotal": 23.6
+                }
+            ],
+            "status": "Entregue",
+            "data_hora_criacao": "2025-06-09T12:45:49.084337",
+            "valor_total": 187.59999999999997
+        },
+        {
+            "id_pedido": "PED0002",
+            "id_cliente": "0001",
+            "itens": [
+                {
+                    "produto_id": "0020",
+                    "quantidade": 1,
+                    "subtotal": 25.9
+                }
+            ],
+            "status": "Pendente",
+            "data_hora_criacao": "2025-06-09T15:20:47.999877",
+            "valor_total": 25.9
+        }
+    ],
+    "next_pedido_id": 2
+}
